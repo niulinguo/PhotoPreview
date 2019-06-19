@@ -7,6 +7,7 @@
     <application>
         <activity
             android:name=".PhotoPreviewActivity"
+            android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/PhotoPreviewTheme" />
     </application>
